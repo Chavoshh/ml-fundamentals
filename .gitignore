@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment variables
+.env
+.env.local
+
+# Data — we'll commit code, not data
+data/
+*.csv
+*.tsv
+*.tif
+*.tiff
+*.h5
+*.hdf5
+*.nc
+*.npy
+*.npz
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+*.bin
+
+# Logs
+*.log
+runs/
+wandb/
+lightning_logs/
