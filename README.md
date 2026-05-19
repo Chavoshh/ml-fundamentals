@@ -1,4 +1,4 @@
-Week 2 of my ML learning plan: classical ML workflow on the "California Housing dataset".
+Week 2 of my ML learning plan: classical ML workflow on the "California Housing dataset"
 ## Setup
 
 This project uses [uv](https://docs.astral.sh/uv/) for Python and
