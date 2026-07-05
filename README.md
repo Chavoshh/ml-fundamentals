@@ -6,7 +6,7 @@ full pipeline from raw data to a tuned model with honest evaluation.
 
 ## What's in this repo
 
-A single notebook — `notebooks/01_workflow.ipynb` — that covers:
+A single notebook namely `notebooks/01_workflow.ipynb` that covers:
 
 - Data loading, exploration, and diagnostic plots
 - Train/test split with strict discipline (test set touched exactly once)
@@ -34,7 +34,7 @@ cross-validated grid search on the training set.
 | Random Forest (tuned)     | 0.5103    | 0.5046    |
 
 Test RMSE 0.5046 corresponds to a typical prediction error of ~$50k on
-median California house values — a ~32% improvement over the linear
+median California house values: a ~32% improvement over the linear
 baseline.
 
 The close agreement between CV RMSE (0.5103) and test RMSE (0.5046)
